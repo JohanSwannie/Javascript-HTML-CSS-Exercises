@@ -1,0 +1,18 @@
+button {
+    background-color: papayawhip;
+    font-size: 1rem;
+    padding: 2rem;
+    color: navy
+}
+
+p:nth-child(odd) {
+    font-family: 'Caveat', cursive;
+}
+
+p:nth-child(even) {
+    font-family: 'Playfair', serif;
+}
+
+p {
+    font-size: 2rem;
+}
