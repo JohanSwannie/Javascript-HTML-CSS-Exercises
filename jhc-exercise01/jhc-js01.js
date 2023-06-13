@@ -6,7 +6,7 @@ let count2 = 0;
 const clicker = () => {
   count1++;
   count2++;
-  if (count2 === 8) {
+  if (count2 > 7) {
     return;
   }
   if (count1 === 1) {
