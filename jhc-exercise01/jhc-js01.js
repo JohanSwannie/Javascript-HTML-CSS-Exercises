@@ -31,3 +31,25 @@ const clicker = () => {
 };
 
 butty.onclick = clicker;
+
+const conty2 = document.querySelector(".container2");
+let count3 = 0;
+let count4 = 1;
+let count5 = 1;
+
+setInterval(() => {
+  if (count4 < 9) {
+    count3++;
+    const pipper = document.createElement("button");
+    pipper.textContent = count5;
+    pipper.setAttribute("class", "buttercup");
+    conty2.appendChild(pipper);
+    count5++;
+    if (count3 === 22) {
+      const barry = document.createElement("br");
+      conty2.appendChild(barry);
+      count3 = 0;
+      count4++;
+    }
+  }
+}, 100);
