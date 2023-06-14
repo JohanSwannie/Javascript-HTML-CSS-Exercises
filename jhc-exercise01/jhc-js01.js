@@ -1,6 +1,7 @@
 const conty = document.querySelector(".container");
 const butty1 = document.getElementById("button1");
 const butty2 = document.getElementById("button2");
+const butty3 = document.getElementById("button3");
 let count1 = 0;
 let count2 = 0;
 
@@ -75,8 +76,15 @@ const changeThem = () => {
     });
     count6 = 1;
   }
+  butty3.style.display = "inline-block";
 };
 
 let count6 = 1;
 
 butty2.onclick = changeThem;
+
+const restart = () => {
+  location.reload();
+};
+
+butty3.onclick = restart;
