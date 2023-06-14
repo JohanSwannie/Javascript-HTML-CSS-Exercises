@@ -8,14 +8,14 @@ body {
     background-color: rgb(242, 190, 94);
 }
 
-#button1, #button2 {
+#button1, #button2, #button3 {
     background-color: papayawhip;
     font-size: 1rem;
     padding: 2rem;
     color: navy
 }
 
-#button2 {
+#button2, #button3 {
     display: none;
 }
 
