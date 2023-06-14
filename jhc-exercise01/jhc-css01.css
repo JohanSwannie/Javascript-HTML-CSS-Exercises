@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 
-button {
+body {
+    background-color: rgb(242, 190, 94);
+}
+
+#button1, #button2 {
     background-color: papayawhip;
     font-size: 1rem;
     padding: 2rem;
     color: navy
+}
+
+#button2 {
+    display: none;
 }
 
 .container {
@@ -28,13 +36,24 @@ p {
     font-size: 1.5rem;
 }
 
-.buttercup {
+.buttercup1 {
     color: #FFF;
     background-color: brown;
+    font-size: 1rem;
     font-weight: bold;
-    border-radius: 55%;
     margin-right: .1rem;
-    width: 1.1rem;
-    height: 1.1rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 0;
+}
+
+.buttercup2 {
+    color: #FFF;
+    background-color: rgb(4, 128, 10);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: .1rem;
+    width: 3.5rem;
+    height: 3.5rem;
     line-height: 0;
 }
